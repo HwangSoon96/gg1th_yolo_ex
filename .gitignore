@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.local
+!.env.example
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO / training outputs
+runs/
+*.cache
+
+# Pretrained weights (auto-downloaded)
+*.pt
+
+# OS
+Thumbs.db
+.DS_Store
